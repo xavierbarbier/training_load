@@ -31,7 +31,7 @@ Variables finales :
 * day
 
 ## Variables classiques
-
+![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/matrice_paires_classique.png)
 ## Modele multivarié
 
 ## ACP
