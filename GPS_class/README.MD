@@ -41,7 +41,29 @@ Variables finales :
 * day
 
 ## Variables classiques
+Volume :
+* TD (total distance)
+
+Intensité : 
+* max_speed
+* M.min
+
+Volume/Intensité
+* HSD (high speed distance)
+* SpD (sprint distance)
+
+### Résumé
+![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/describ_classique.png)
+
+### Matrice par paires
 ![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/matrice_paires_classique.png)
+
+### Matrice corrélations
+![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/corrplot_classique.png)
+
+### Rapport
+![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/athlete1_sem1_classique.png)
+
 ## Modele multivarié
 
 ## ACP
