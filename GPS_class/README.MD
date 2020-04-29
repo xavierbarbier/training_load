@@ -180,6 +180,9 @@ Match = cluster 4
 #### ACP 
 ![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/cluster_acp.png)
 
+#### Composition des clusters 
+![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/composition_clusters.png)
+
 ### Conclusion
 Une classification Hiérarchique sur notre le jeu de données  permet de bien caractériser les séances selon leurs demandes en termes de déplacements. Particulièrement vrai sur les notions d'intensité, moins sur les notions de volume.
 
