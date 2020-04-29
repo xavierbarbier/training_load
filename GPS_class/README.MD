@@ -166,7 +166,9 @@ Match = cluster 4
 ![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/cluster_acp.png)
 
 
-
+## Références
+* EXTRAIT 01 SDS_#24 L'utilisation Des Techno GPS - Romain Dubois - https://fr.calameo.com/read/003232740fb4f2a88b009
+* A contemporary multi-modal mechanical approach to training monitoring in elite professional soccer - Owen & col. - https://www.researchgate.net/publication/318379665_A_contemporary_multi-modal_mechanical_approach_to_training_monitoring_in_elite_professional_soccer
 
 
 
