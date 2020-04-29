@@ -167,8 +167,9 @@ Match = cluster 4
 
 
 ## Références
-* EXTRAIT 01 SDS_#24 L'utilisation Des Techno GPS - Romain Dubois - https://fr.calameo.com/read/003232740fb4f2a88b009
-* A contemporary multi-modal mechanical approach to training monitoring in elite professional soccer - Owen & col. - https://www.researchgate.net/publication/318379665_A_contemporary_multi-modal_mechanical_approach_to_training_monitoring_in_elite_professional_soccer
+* *EXTRAIT 01 SDS_#24 L'utilisation Des Techno GPS - Romain Dubois - https://fr.calameo.com/read/003232740fb4f2a88b009
+* *A contemporary multi-modal mechanical approach to training monitoring in elite professional soccer - Owen & col. - https://www.researchgate.net/publication/318379665_A_contemporary_multi-modal_mechanical_approach_to_training_monitoring_in_elite_professional_soccer
+* *Dubois R, Bru N, Paillard T, Le Cunuder A, Lyons M, Maurelli O, et al. (2020) Rugby game performances and weekly workload: Using of data mining process to enter in the complexity. PLoS ONE 15(1): e0228107. https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0228107
 
 
 
