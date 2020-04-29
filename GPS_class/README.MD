@@ -1,7 +1,7 @@
 # Caractérisation de séances d'entrainement à partir des données GPS
 
 ## Présentation
-GPS largement utilisés dans le suivi de l'entrainement dans les sports collectifs
+GPS largement utilisés dans le suivi de l'entrainement dans les sports collectifs pour suivre la préparation à la compétition.
 
 PARTIE 1
 * Très nombreuses variables à dispositions des staffs
@@ -40,7 +40,8 @@ Variables finales :
 * week
 * day
 
-## Variables classiques
+## Partie 1 : réduction dimensions
+### Variables classiques
 Volume :
 * TD (total distance)
 
@@ -52,21 +53,21 @@ Volume/Intensité
 * HSD (high speed distance)
 * SpD (sprint distance)
 
-### Résumé
+#### Résumé
 ![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/describ_classique.png)
 
 -> jeu de données clairement fictif avec une vitesse max médiane à 8km/h.
 
-### Matrice par paires
+#### Matrice par paires
 ![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/matrice_paires_classique.png)
 
-### Matrice corrélations
+#### Matrice corrélations
 ![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/corrplot_classique.png)
 
-### Rapport
+#### Rapport
 ![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/athlete1_sem1_classique.png)
 
-## Modele multivarié
+### Multimodal
 * Multi-modal mechanical
 * ratio séance/max match
 
@@ -82,17 +83,90 @@ Intensité :
 
 -> données A:D manquantes.
 
-### Résumé
+#### Résumé
 ![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/describ_multi.png)
 
-### Matrice par paires
+#### Matrice par paires
 ![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/matrice_paires_multi.png)
 
-### Matrice corrélations
+#### Matrice corrélations
 ![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/corrplot_multi.png)
 
-### Rapport
+#### Rapport
 ![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/athlete1_sem1_multi.png)
 
 
-## ACP
+### ACP
+Variables utiliées : 
+* Time
+* TD (total distance)
+* max_speed
+* M.min
+* HSD (high speed distance)
+* SpD (sprint distance)
+* HSD.min 
+* SpD.min 
+
+#### Eboulis des valeurs propres
+![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/evp.png)
+
+#### Qualité repésentation variables
+![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/representation_p1.png)
+
+#### Cercle de corrélations
+![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/cercle_correlations.png)
+
+* Dim.1 probablement = Intensité
+* Dim.2 probablement = Volume
+
+#### Résumé
+![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/describ_acp.png)
+
+#### Matrice par paires
+![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/matrice_paires_acp.png)
+
+#### Matrice corrélations
+![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/corrplot_acp.png)
+
+#### Rapport
+![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/athlete1_sem1_acp.png)
+
+## Partie 2 : classification des séances
+
+### Demandes selon classification actuelle
+#### Classique 
+![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/session_type_classique.png)
+
+#### Multimodal 
+![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/session_type_multi.png)
+
+#### ACP 
+![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/session_type_acp.png)
+
+* Pas de différences visibles selon thème de séance.
+
+### Hierarchical Clustering on Principle Components (HCPC)
+
+#### Clusters
+![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/cluster_p1.png)
+* 3 clusters
+
+#### Clusters avec Match
+Match = cluster 4
+![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/cluster_session.png)
+
+### Demandes selon classification HCPC
+#### Classique 
+![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/cluster_classique.png)
+
+#### Multimodal 
+![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/cluster_multi.png)
+
+#### ACP 
+![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/cluster_acp.png)
+
+
+
+
+
+
