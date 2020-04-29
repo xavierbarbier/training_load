@@ -55,6 +55,8 @@ Volume/Intensité
 ### Résumé
 ![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/describ_classique.png)
 
+-> jeu de données clairement fictif avec une vitesse max médiane à 8km/h.
+
 ### Matrice par paires
 ![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/matrice_paires_classique.png)
 
@@ -65,5 +67,32 @@ Volume/Intensité
 ![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/athlete1_sem1_classique.png)
 
 ## Modele multivarié
+* Multi-modal mechanical
+* ratio séance/max match
+
+Volume :
+* TD (total distance)
+* HSD (high speed distance)
+* SpD (sprint distance)
+
+Intensité : 
+* M.min
+* HSD.min 
+* SpD.min 
+
+-> données A:D manquantes.
+
+### Résumé
+![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/describ_multi.png)
+
+### Matrice par paires
+![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/matrice_paires_multi.png)
+
+### Matrice corrélations
+![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/corrplot_multi.png)
+
+### Rapport
+![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/athlete1_sem1_multi.png)
+
 
 ## ACP
