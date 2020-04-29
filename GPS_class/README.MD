@@ -181,7 +181,7 @@ Match = cluster 4
 ![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/cluster_acp.png)
 
 ### Conclusion
-Sur notre le jeu de données Classification Hiérarchique permet de bien caractériser les séances selon leurs demandes en termes de déplacement.
+Une classification Hiérarchique sur notre le jeu de données  permet de bien caractériser les séances selon leurs demandes en termes de déplacements. Particulièrement vrai sur les notions d'intensité, moins sur les notions de volume.
 
 ## Références
 * *EXTRAIT 01 SDS_#24 L'utilisation Des Techno GPS - Romain Dubois - https://fr.calameo.com/read/003232740fb4f2a88b009*
