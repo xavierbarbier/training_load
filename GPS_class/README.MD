@@ -141,6 +141,11 @@ Variables utiliées :
 #### Rapport
 ![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/athlete1_sem1_acp.png)
 
+### Conclusion
+Sur notre le jeu de données le model multimodal et l'ACP permettent de réduire les dimensions sans perdre de l'information.
+Il est dommage que le volume et l'intensité sur le model multimodal soient fortement corrélées. 
+
+
 ## Partie 2 : classification des séances
 
 ### Demandes selon classification actuelle
@@ -175,6 +180,8 @@ Match = cluster 4
 #### ACP 
 ![100% center](https://github.com/xavierbarbier/training_load/blob/master/GPS_class/graph/cluster_acp.png)
 
+### Conclusion
+Sur notre le jeu de données Classification Hiérarchique permet de bien caractériser les séances selon leurs demandes en termes de déplacement.
 
 ## Références
 * *EXTRAIT 01 SDS_#24 L'utilisation Des Techno GPS - Romain Dubois - https://fr.calameo.com/read/003232740fb4f2a88b009*
