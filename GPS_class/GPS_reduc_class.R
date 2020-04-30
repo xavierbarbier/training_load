@@ -23,7 +23,7 @@ library(dplyr)
 # # Import des données
 
 library(readr)
-data <- read_csv("GPS/data/Workload Data.csv", 
+data <- read_csv("https://raw.githubusercontent.com/xavierbarbier/training_load/master/GPS_class/Workload_Data.csv", 
                           col_types = cols(Date = col_date(format = "%m/%d/%Y")))
 View(data)
 
