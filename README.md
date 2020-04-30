@@ -6,3 +6,8 @@ Exemple de collecte de données questionnaire type Hooper grace à Google Formul
 
 ## viz_hooper
 Exemple de visualisation des données.
+
+## GPS_class
+Objectifs :
+* réduire les dimensions utilisées pour quantifier, qualifier et communiquer l'activité physique des athlètes.
+* classifier les séances selon l'activité physique et non le thème de la séance.
